@@ -1,0 +1,40 @@
+## Marine Authority Contact Directory
+
+### Primary Contacts
+
+#### Great Barrier Reef Marine Park Authority (GBRMPA)
+- Emergency Hotline: +61 7 4750 0700
+- Email: info@gbrmpa.gov.au
+- Incident Reporting: incidents@gbrmpa.gov.au
+- Website: https://www.gbrmpa.gov.au
+- Jurisdiction: Great Barrier Reef, Queensland, Australia
+- When to contact: Any Critical risk event or mass bleaching observed within GBR boundaries.
+
+#### NOAA Coral Reef Watch (USA & International)
+- Email: coralreefwatch@noaa.gov
+- Bleaching Alert System: https://coralreefwatch.noaa.gov
+- Phone: +1 301 713 2857
+- When to contact: For satellite-verified thermal stress data, bleaching forecasts, and reporting events in US-managed waters.
+
+#### Reef Check Foundation (Global)
+- Email: rcinfo@reefcheck.org
+- Phone: +1 310 230 2371
+- Volunteer Reporting: https://www.reefcheck.org/report
+- When to contact: For citizen-science data submission and volunteer coordination during bleaching events.
+
+### Escalation Protocol
+1. **First Response (within 2 hours)**: Contact the regional marine park authority for the affected jurisdiction.
+2. **Secondary Escalation (within 24 hours)**: If the event spans multiple jurisdictions or is of exceptional severity, escalate to NOAA Coral Reef Watch and the national environmental ministry.
+3. **International Notification (within 72 hours)**: For events affecting World Heritage Sites or transboundary reefs, notify the International Coral Reef Initiative (ICRI) secretariat at icri@icriforum.org.
+
+### Report Format for Authority Notification
+When contacting authorities, include:
+- Subject line: "[CORALGUARD ALERT] [Risk Level] - [Location] - [Date]"
+- Body must contain:
+  - GPS coordinates of affected area
+  - Estimated area affected (hectares)
+  - AI classification result and confidence score
+  - Environmental readings (SSTA, TSA, depth)
+  - Number and type of species affected (if known)
+  - Photographs attached
+  - Recommended immediate action from CoralGuard AI

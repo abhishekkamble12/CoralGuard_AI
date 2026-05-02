@@ -1,0 +1,35 @@
+## Precautionary Measures by Risk Level
+
+### Low Risk — Routine Monitoring
+When the AI classifies the reef as Healthy with Low environmental risk:
+- Maintain standard monitoring schedule (weekly visual surveys).
+- Ensure temperature loggers are calibrated and recording.
+- Review satellite SSTA data from NOAA Coral Reef Watch for any emerging hotspots.
+- No restrictions on tourism or fishing activities.
+- Educate local stakeholders about reef health indicators they can observe.
+
+### Elevated Risk — Heightened Vigilance
+When early bleaching signs or Elevated environmental stress is detected:
+- **Monitoring**: Increase survey frequency to every 48 hours. Deploy additional in-water temperature loggers.
+- **Tourism Management**: Brief dive operators on current conditions. Request they avoid physical contact with stressed corals. Consider rerouting snorkeling tours away from affected zones.
+- **Fishing Restrictions**: Advise against anchoring on reef structures. Recommend temporary no-take zones around stressed areas.
+- **Water Quality**: Test for runoff contamination (sediment, nutrients, pesticides). Elevated nutrient loads can worsen bleaching outcomes.
+- **Communication**: Notify local marine rangers and research institutions. Begin daily situation reports.
+- **Preparation**: Pre-position coral fragment rescue kits and shade structure materials in case of escalation to Critical.
+
+### Critical Risk — Emergency Measures
+When mass bleaching or coral mortality is confirmed:
+- **Immediate Closure**: Request emergency closure of affected reef zones to all non-essential human activity (tourism, fishing, recreational diving).
+- **Authority Notification**: Contact the marine park authority within 2 hours using the emergency hotline. Follow the report format specified in authority_contacts.txt.
+- **Coral Rescue**: Deploy fragment rescue teams to collect genetic samples from surviving colonies. Prioritize species with known climate resilience (e.g., Porites spp., Turbinaria spp.).
+- **Shade Structures**: If feasible and approved by authorities, deploy localized shade structures over critical colonies to reduce light-driven thermal stress.
+- **Water Quality Intervention**: Coordinate with land management agencies to reduce agricultural runoff during the stress period.
+- **Scientific Documentation**: Assign dedicated survey teams to photograph and record mortality by species. This data is critical for post-event recovery assessment.
+- **Public Communication**: Coordinate messaging with the marine park authority. Avoid speculative statements about reef death until formal assessment is complete.
+- **Recovery Planning**: Begin planning post-event restoration activities including coral gardening and larval reseeding from nursery stocks.
+
+### General Precautions (All Risk Levels)
+- Never touch, stand on, or break coral, even if it appears dead.
+- Use reef-safe sunscreen (no oxybenzone or octinoxate).
+- Report any unusual marine animal behavior (fish die-offs, unusual algae blooms) alongside coral observations.
+- Maintain accurate records — data quality directly impacts the effectiveness of management decisions.

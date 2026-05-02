@@ -1,0 +1,29 @@
+## Coral Reef Ecology — Reference Guide
+
+### What is Coral Bleaching?
+Coral bleaching occurs when corals expel their symbiotic algae (zooxanthellae) due to environmental stress, primarily elevated water temperatures. The zooxanthellae provide up to 90% of the coral's energy through photosynthesis, and their loss causes the coral to turn white ("bleach") and face starvation. Bleaching is not immediate death — corals can recover if stress conditions subside within 4-8 weeks — but prolonged bleaching leads to mortality.
+
+### Key Environmental Parameters
+
+#### Sea Surface Temperature Anomaly (SSTA)
+SSTA measures how much the current sea surface temperature deviates from the long-term average for that location and time of year.
+- SSTA < 0.5°C: Normal variation. No bleaching risk.
+- SSTA 0.5–1.0°C: Bleaching Watch. Stress is building.
+- SSTA > 1.0°C: Bleaching Warning/Alert. Active bleaching likely if sustained for >4 weeks.
+
+#### Thermal Stress Anomaly (TSA)
+TSA is a cumulative measure of heat stress over time, expressed in Degree Heating Weeks (DHW). It accounts for both the intensity and duration of thermal stress.
+- TSA 0-4: No significant stress accumulation.
+- TSA 4-8: Bleaching likely in susceptible species.
+- TSA > 8: Widespread bleaching and significant mortality expected.
+
+#### Depth
+Shallow reefs (0-5m) experience greater temperature fluctuations and UV exposure, making them more susceptible to bleaching. Deeper reefs (15-30m) may serve as thermal refugia during bleaching events, though they are not immune to severe events.
+
+### Coral Health Classification
+- **Healthy**: Normal pigmentation, visible polyp extension, no signs of tissue loss or paling. The reef structure supports diverse fish and invertebrate communities.
+- **Bleached**: Partial or complete loss of color (white, pale, or fluorescent coloration). Coral tissue is still alive but under severe stress. Recovery is possible if thermal stress subsides.
+- **Dead**: Skeleton visible with no living tissue. Often colonized by algae. Structural integrity may remain but ecological function is lost.
+
+### Why It Matters
+Coral reefs cover less than 1% of the ocean floor but support 25% of all marine species. They protect coastlines from wave erosion, support fisheries that feed 500 million people, and generate $36 billion annually in tourism revenue. A world without healthy reefs means coastal flooding, fishery collapse, and biodiversity loss on a catastrophic scale.

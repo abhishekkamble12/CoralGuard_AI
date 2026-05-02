@@ -1,0 +1,15 @@
+## Standard Operating Procedure: Coral Bleaching Response
+
+### 1. Risk Levels and Thresholds
+- **Low Risk**: Sea Surface Temperature Anomaly (SSTA) is below 0.5°C. No active bleaching observed. No immediate action required.
+- **Elevated Risk**: SSTA is between 0.5°C and 1.0°C. Early signs of paling or localized bleaching. Action: Increase monitoring frequency and notify local marine park rangers.
+- **Critical Risk**: SSTA exceeds 1.0°C and Thermal Stress Anomaly (TSA) is high. Widespread bleaching and potential mortality. Action: Immediately dispatch rapid response field teams. Implement temporary fishing/tourism closures in affected clusters.
+
+### 2. Environmental Clusters
+- **Cluster 0**: Shallow water reefs, highly susceptible to rapid thermal stress.
+- **Cluster 1**: Deep water reefs, generally resilient but vulnerable to prolonged warming.
+- **Cluster -1 (Noise/Anomaly)**: Unusual environmental conditions requiring manual verification.
+
+### 3. Mitigation Strategies
+- For localized bleaching, consider deploying localized shading structures if feasible.
+- For widespread critical events, focus on identifying resilient "super corals" for future restoration efforts.

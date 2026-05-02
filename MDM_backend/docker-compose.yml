@@ -1,0 +1,43 @@
+version: "3.9"
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env.example
+    volumes:
+      - ../efficientnet_b3_coral_v1.keras:/app/models/efficientnet_b3_coral_v1.keras
+      - ../dbscan_model.pkl:/app/models/dbscan_model.pkl
+      - ../scaler.pkl:/app/models/scaler.pkl
+    depends_on:
+      - postgres
+      - redis
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://localhost:8000/api/v1
+    depends_on:
+      - backend
+
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: coralguard
+      POSTGRES_USER: coralguard
+      POSTGRES_PASSWORD: coralguard
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+
+volumes:
+  pgdata:

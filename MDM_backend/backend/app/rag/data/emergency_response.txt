@@ -1,0 +1,62 @@
+## Emergency Response Protocol for Critical Reef Events
+
+### Activation Criteria
+This protocol is activated when ANY of the following conditions are met:
+1. AI classification returns "Dead" with confidence > 70%.
+2. AI classification returns "Bleached" AND SSTA > 1.5°C AND TSA > 8.
+3. Fusion engine returns "Critical" risk level.
+4. Field observer reports mass bleaching affecting >50% of surveyed colonies.
+
+### Phase 1: Immediate Actions (0–2 hours)
+1. **Alert Dispatch**: CoralGuard automatically sends webhook alerts to configured channels (Slack, email, SMS). Verify alerts were received.
+2. **Authority Notification**: Call the marine park authority emergency hotline. Do not rely solely on email during emergencies.
+3. **Zone Closure Request**: Submit a formal request to close the affected reef zone to public access. Reference the AI analysis ID and confidence scores.
+4. **Team Mobilization**: Contact the nearest rapid-response dive team. Provide them with GPS coordinates and the CoralGuard analysis report.
+
+### Phase 2: Field Response (2–24 hours)
+1. **Ground Truth Survey**: Deploy divers to confirm AI classification with in-person assessment. Record species-level data.
+2. **Fragment Collection**: Collect fragments from surviving colonies for ex-situ preservation. Target genetically diverse samples.
+3. **Environmental Sampling**: Collect water samples for laboratory analysis (nutrients, pollutants, pathogen screening).
+4. **Expand Survey Radius**: Check adjacent reef areas within 5km to determine event extent.
+
+### Phase 3: Sustained Response (24 hours – 2 weeks)
+1. **Daily Monitoring**: Survey the affected area every 24 hours. Track mortality progression.
+2. **Shade Deployment**: If approved, install temporary shade structures over high-value colonies.
+3. **Water Quality Management**: Coordinate with upstream land managers to minimize runoff.
+4. **Media & Public Communication**: Work with the marine authority's communications team. Issue factual updates based on survey data.
+5. **Scientific Reporting**: Begin compiling data for the post-event incident report.
+
+### Phase 4: Recovery Assessment (2 weeks – 6 months)
+1. **Recovery Tracking**: Monitor bleached colonies for signs of zooxanthellae return (color recovery).
+2. **Mortality Mapping**: Create detailed maps of mortality by species and location.
+3. **Resilience Identification**: Flag colonies that survived severe stress as potential "super corals" for future restoration.
+4. **Restoration Planning**: Based on mortality data, develop a restoration plan including coral gardening, larval enhancement, or transplantation from nursery stocks.
+5. **Lessons Learned**: Conduct a post-event review. Update CoralGuard SOPs and thresholds based on findings.
+
+### Communication Templates
+
+#### Emergency Email to Authority
+Subject: [CORALGUARD EMERGENCY] Critical Reef Event - [Location] - [Date]
+
+Body:
+Dear [Authority Name],
+
+CoralGuard AI has detected a Critical reef event requiring immediate attention.
+
+Location: [GPS Coordinates]
+Detection Time: [Timestamp]
+AI Classification: [Class] (Confidence: [X]%)
+SSTA: [X]°C | TSA: [X] | Depth: [X]m
+Fusion Risk Level: Critical (Score: [X])
+Estimated Affected Area: [X] hectares
+
+Recommended Actions:
+1. [From AI report]
+2. [From AI report]
+
+Analysis Report ID: [ID] — full report available at [CoralGuard Dashboard URL]
+
+Requesting immediate zone closure and field team deployment.
+
+Regards,
+CoralGuard Automated Alert System

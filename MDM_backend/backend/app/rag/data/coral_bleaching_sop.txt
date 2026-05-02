@@ -1,0 +1,42 @@
+## Standard Operating Procedure: Coral Bleaching Response
+
+### 1. Detection & Assessment
+When coral bleaching is detected through visual or automated monitoring:
+1. Record the GPS coordinates, depth, and extent of bleaching observed.
+2. Capture high-resolution images from multiple angles for AI classification.
+3. Measure in-situ water temperature, salinity, and turbidity if instruments are available.
+4. Note the percentage of colony affected: <25% (mild), 25-50% (moderate), >50% (severe).
+
+### 2. Risk Level Classification
+- **Low Risk (SSTA < 0.5°C)**: No active bleaching. Reef appears healthy with normal coloration. Continue routine monitoring at standard intervals (weekly).
+- **Elevated Risk (SSTA 0.5–1.0°C)**: Early signs of paling or stress coloration visible. Increase monitoring to every 48 hours. Notify regional marine park rangers. Document progression with time-stamped photography.
+- **Critical Risk (SSTA > 1.0°C, TSA > 8)**: Active mass bleaching event. Immediate notification to marine authority required within 2 hours. Deploy rapid-response field teams. Consider temporary closure of affected reef zones to tourism and fishing.
+
+### 3. Immediate Response Actions
+For Elevated Risk:
+- Increase monitoring frequency to every 48 hours.
+- Deploy additional temperature loggers in the affected area.
+- Notify local dive operators and fishing communities.
+- Begin documenting species-specific responses for scientific record.
+
+For Critical Risk:
+- Activate the Emergency Response Protocol (see emergency_response.txt).
+- Contact the Marine Park Authority immediately (see authority_contacts.txt).
+- Request emergency closure of affected zones.
+- Mobilize coral fragment rescue teams to salvage genetic material from severely affected colonies.
+- Establish a media blackout until official statements are prepared by the authority.
+
+### 4. Post-Event Monitoring
+After the thermal stress event subsides:
+- Continue monitoring for 90 days to assess recovery trajectory.
+- Document mortality rates by species.
+- Map surviving colonies as potential climate-resilient genotypes.
+- Submit a formal incident report to the national marine science agency within 30 days.
+
+### 5. Documentation Requirements
+All bleaching events must be documented with:
+- Date, time, GPS coordinates, and depth.
+- AI classification output (Healthy/Bleached/Dead with confidence score).
+- Environmental parameters (SSTA, TSA, salinity, turbidity, pH).
+- Photographs (minimum 4 per affected area).
+- Observer name and affiliation.
